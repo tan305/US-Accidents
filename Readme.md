@@ -13,10 +13,10 @@
  
 **We can help the government and transport department by providing insights from our analysis to devise strategies for reducing the number of accidents.**
 <br>
-<br>Which State and City recorded the maximum number of accidents? 
-<br>Which month or year had how many accidents and if there is a trend or a pattern? 
-<br>Relationship of environmental factors like weather contributing to the accident. 
-<br>Relationship of accident severity with the place it occurred for Ex: traffic signal or a junction. 
-<br>Which time of the day has most accidents? 
-<br>Which week of the year has most accidents? 
+<br>* Which State and City recorded the maximum number of accidents? 
+<br>* Which month or year had how many accidents and if there is a trend or a pattern? 
+<br>* Relationship of environmental factors like weather contributing to the accident. 
+<br>* Relationship of accident severity with the place it occurred for Ex: traffic signal or a junction. 
+<br>* Which time of the day has most accidents? 
+<br>* Which week of the year has most accidents? 
  
