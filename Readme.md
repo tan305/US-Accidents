@@ -25,11 +25,27 @@ We can help the government and transport department by providing insights from o
 
 * Dummies were created in order to transform categorical attributes to numerical attributes using One Hot Encoding.  
 * Time related features which provide information regarding the start and end time of the accident aren’t very helpful for our analysis. New features such as day of the week and hour of the day were extracted from these existing features. 
-* We extracted some of the most important weather conditions from our weather condition column as using the column directly would not have added to the predicting capability of our model. Then we made dummy variables for each of this weather condition to show that during the accident if that weather condition was present or not.  
+* We extracted some of the most important weather conditions from our weather condition column as using the column directly would not have added to the predicting capability of our model. Then we made dummy variables for each of this weather condition to show the weather conditions present during the accident.  
 * TMC column had around 25000 missing values. It was an important column that could significantly improve our models. So, we made a new category for these values as we thought it was the best way to impute.  
 * Our target variable Severity ranges between 1 and 4. There is an imbalance in the dataset as most of the data points belong to Severity 2 and there are fewer observations with Severity 1. We combine Severity 1 and 2 as 2 to overcome this problem. 
 
  
-**We have split the entire dataset into training and validation data, where 80% of the observations is training data and the rest 20% is the validation data. The models are trained using the training data and their performance is evaluated using validation data. The data thus processed can be used for both multiclass and binary classifications.**
+ 
+**Note:We have split the entire dataset into training and validation data, where 80% of the observations is training data and the rest 20% is the validation data. The models are trained using the training data and their performance is evaluated using validation data. The data thus processed can be used for both multiclass and binary classifications.**
  
  
+## Handling Imbalance: 
+
+To handle the imbalance in our data, we used oversampling and undersampling technique. For multiclass target, we undersampled the data with severity 2 and oversampled the data with severity 4 to match the number of data points in class 3. In this way, all the classes had the same number of data points and our data was balanced. For binary classification, we undersampled class 0 such that it matched the number of data points in class 1.
+
+## Model Comparison
+
+MODEL COMPARISION 
+For Balanced Data:
+
+ ---------------------------------------------------------
+|                   |      Base Model          |          Tuned Model       | 
+Multiclass Classification | Binary Classification Multiclass Classification Binary Classification Logistic Regression Accuracy - 0.57 Accuracy - 0.67 AUC ROC - 0.75 Accuracy - 0.54 Accuracy - 0.67 AUC Score - 0.76 Decision Tree Accuracy - 0.55 Accuracy - 0.65 AUC ROC - 0.70 Accuracy - 0.61 Accuracy - 0.66 AUC ROC - 0.68 Random Forest Accuracy - 0.55 Accuracy - 0.66 AUC ROC - 0.75 Accuracy - 0.57 Accuracy - 0.68 AUC ROC - 0.78 Gradient Boosting - Accuracy - 0.68 AUC ROC - 0.78 - Accuracy - 0.70 AUC ROC - 0.81 
+ 
+For Imbalanced Data: 
+ Base Model Tuned Model  Multiclass  Classification Binary Classification Multiclass Classification Binary Classification Logistic Regression Accuracy - 0.72 Accuracy - 0.72 AUC ROC - 0.76 Accuracy - 0.72 Accuracy - 0.72 AUC Score - 0.76 Decision Tree Accuracy - 0.71 Accuracy - 0.72 AUC ROC - 0.66 Accuracy - 0.73 Accuracy - 0.73 AUC ROC - 0.57 Random Forest Accuracy - 0.69 Accuracy - 0.69 AUC ROC - 0.76 Accuracy - 0.72 Accuracy - 0.73 AUC ROC - 0.79 Gradient Boosting - Accuracy - 0.73 AUC ROC - 0.79 - Accuracy - 0.74 AUC ROC - 0.80 
