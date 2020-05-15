@@ -42,4 +42,4 @@ To handle the imbalance in our data, we used oversampling and undersampling tech
 
 **For Balanced Data:**
 
-</img_src=https://github.com/tan305/US-Accidents/issues/1#issue-619143155/>
+< img_src=https://github.com/tan305/US-Accidents/issues/1#issue-619143155 />
