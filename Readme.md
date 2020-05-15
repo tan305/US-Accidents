@@ -22,4 +22,14 @@ We can help the government and transport department by providing insights from o
 
 
 ## Feature Engineering
+
+* Dummies were created in order to transform categorical attributes to numerical attributes using One Hot Encoding.  
+* Time related features which provide information regarding the start and end time of the accident aren’t very helpful for our analysis. New features such as day of the week and hour of the day were extracted from these existing features. 
+* We extracted some of the most important weather conditions from our weather condition column as using the column directly would not have added to the predicting capability of our model. Then we made dummy variables for each of this weather condition to show that during the accident if that weather condition was present or not.  
+* TMC column had around 25000 missing values. It was an important column that could significantly improve our models. So, we made a new category for these values as we thought it was the best way to impute.  
+* Our target variable Severity ranges between 1 and 4. There is an imbalance in the dataset as most of the data points belong to Severity 2 and there are fewer observations with Severity 1. We combine Severity 1 and 2 as 2 to overcome this problem. 
+
+ 
+**We have split the entire dataset into training and validation data, where 80% of the observations is training data and the rest 20% is the validation data. The models are trained using the training data and their performance is evaluated using validation data. The data thus processed can be used for both multiclass and binary classifications.**
+ 
  
