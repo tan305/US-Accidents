@@ -40,12 +40,15 @@ To handle the imbalance in our data, we used oversampling and undersampling tech
 
 ## Model Comparison
 
-MODEL COMPARISION 
-For Balanced Data:
+**For Balanced Data:**
 
  ---------------------------------------------------------
 |                   |      Base Model          |          Tuned Model       | 
-Multiclass Classification | Binary Classification Multiclass Classification Binary Classification Logistic Regression Accuracy - 0.57 Accuracy - 0.67 AUC ROC - 0.75 Accuracy - 0.54 Accuracy - 0.67 AUC Score - 0.76 Decision Tree Accuracy - 0.55 Accuracy - 0.65 AUC ROC - 0.70 Accuracy - 0.61 Accuracy - 0.66 AUC ROC - 0.68 Random Forest Accuracy - 0.55 Accuracy - 0.66 AUC ROC - 0.75 Accuracy - 0.57 Accuracy - 0.68 AUC ROC - 0.78 Gradient Boosting - Accuracy - 0.68 AUC ROC - 0.78 - Accuracy - 0.70 AUC ROC - 0.81 
+|                         Multiclass Classification | Binary Classification Multiclass Classification Binary Classification 
+|Logistic Regression |Accuracy - 0.57 Accuracy - 0.67 AUC ROC - 0.75 Accuracy - 0.54 Accuracy - 0.67 AUC Score - 0.76 
+|Decision Tree       |Accuracy - 0.55 Accuracy - 0.65 AUC ROC - 0.70 Accuracy - 0.61 Accuracy - 0.66 AUC ROC - 0.68 
+|Random Forest       |Accuracy - 0.55 Accuracy - 0.66 AUC ROC - 0.75 Accuracy - 0.57 Accuracy - 0.68 AUC ROC - 0.78 
+|Gradient Boosting   |Accuracy - 0.68 AUC ROC - 0.78 - Accuracy - 0.70 AUC ROC - 0.81 
  
 For Imbalanced Data: 
  Base Model Tuned Model  Multiclass  Classification Binary Classification Multiclass Classification Binary Classification Logistic Regression Accuracy - 0.72 Accuracy - 0.72 AUC ROC - 0.76 Accuracy - 0.72 Accuracy - 0.72 AUC Score - 0.76 Decision Tree Accuracy - 0.71 Accuracy - 0.72 AUC ROC - 0.66 Accuracy - 0.73 Accuracy - 0.73 AUC ROC - 0.57 Random Forest Accuracy - 0.69 Accuracy - 0.69 AUC ROC - 0.76 Accuracy - 0.72 Accuracy - 0.73 AUC ROC - 0.79 Gradient Boosting - Accuracy - 0.73 AUC ROC - 0.79 - Accuracy - 0.74 AUC ROC - 0.80 
