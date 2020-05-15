@@ -31,7 +31,7 @@ We can help the government and transport department by providing insights from o
 
  
  
-**Note:We have split the entire dataset into training and validation data, where 80% of the observations is training data and the rest 20% is the validation data. The models are trained using the training data and their performance is evaluated using validation data. The data thus processed can be used for both multiclass and binary classifications.**
+**Note:We have split the entire dataset into training and validation data, where 80% of the observations is training data and the rest 20% is the validation data. The models are trained using the training data and their performance is evaluated using validation data. The data has been preprocessed for both multiclass and binary classifications.**
  
  
 ## Handling Imbalance: 
