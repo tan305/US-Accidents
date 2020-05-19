@@ -40,5 +40,5 @@ To handle the imbalance in our data, we used oversampling and undersampling tech
 
 ## Model Comparison
 
-![Capture](https://user-images.githubusercontent.com/30891813/82081055-ae8cd900-96b3-11ea-8c03-14957e9ed3e0.PNG)
+![Capture](https://user-images.githubusercontent.com/30891813/82270289-4acc0f80-9942-11ea-9a02-6148018239fa.PNG)
 
