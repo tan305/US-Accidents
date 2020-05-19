@@ -44,22 +44,22 @@ To handle the imbalance in our data, we used oversampling and undersampling tech
 
 ## Notebooks
 
-Data Cleaning and Exploratory Data Analysis – Data_Cleaning_EDA.ipynb
-String Indexing and One Hot Encoding – StringIndexing_OHE_Conversion.ipynb
-Oversampling and Undersampling – Undersampling_Oversampling.ipynb
+<br>Data Cleaning and Exploratory Data Analysis – Data_Cleaning_EDA.ipynb
+<br>String Indexing and One Hot Encoding – StringIndexing_OHE_Conversion.ipynb
+<br>Oversampling and Undersampling – Undersampling_Oversampling.ipynb
 
-Models:
-Imbalanced Dataset:
-Binary Classification:
-Logistic Regression – LR_Binary.ipynb
-Random Forest, Decision Tree and GBT – RF_DT_GBT_Binary.ipynb
-Multiclass Classification:
-Logistic Regression – LR_Multiclass.ipynb
-Random Forest and Decision Tree– RFDT_Multiclass.ipynb
-Balanced Dataset:
-Binary Classification:
-Logistic Regression, Random Forest, Decision Tree and GBT –
-RF_DT_GBT_LR_Binary_Bal.ipynb
-Multiclass Classification:
-Logistic Regression – LR_Multiclass_Bal.ipynb
-Random Forest and Decision Tree– RFDT_Multiclass_Bal.ipynb
+<br>Models:
+<br>Imbalanced Dataset:
+<br>Binary Classification:
+<br>Logistic Regression – LR_Binary.ipynb
+<br>Random Forest, Decision Tree and GBT – RF_DT_GBT_Binary.ipynb
+<br>Multiclass Classification:
+<br>Logistic Regression – LR_Multiclass.ipynb
+<br>Random Forest and Decision Tree– RFDT_Multiclass.ipynb
+<br>Balanced Dataset:
+<br>Binary Classification:
+<br>Logistic Regression, Random Forest, Decision Tree and GBT –
+<br>RF_DT_GBT_LR_Binary_Bal.ipynb
+<br>Multiclass Classification:
+<br>Logistic Regression – LR_Multiclass_Bal.ipynb
+<br>Random Forest and Decision Tree– RFDT_Multiclass_Bal.ipynb
