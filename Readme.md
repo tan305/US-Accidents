@@ -50,7 +50,7 @@ To handle the imbalance in our data, we used oversampling and undersampling tech
 
 <br>Models:
 <br>
-<br>Imbalanced Dataset:
+<br>**Imbalanced Dataset:**
 <br>
 <br>Binary Classification:
 <br>Logistic Regression – LR_Binary.ipynb
@@ -59,7 +59,8 @@ To handle the imbalance in our data, we used oversampling and undersampling tech
 <br>Multiclass Classification:
 <br>Logistic Regression – LR_Multiclass.ipynb
 <br>Random Forest and Decision Tree– RFDT_Multiclass.ipynb
-<br>Balanced Dataset:
+<br>
+<br>**Balanced Dataset:**
 <br>
 <br>Binary Classification:
 <br>Logistic Regression, Random Forest, Decision Tree and GBT –
