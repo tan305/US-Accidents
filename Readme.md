@@ -42,3 +42,24 @@ To handle the imbalance in our data, we used oversampling and undersampling tech
 
 ![Capture](https://user-images.githubusercontent.com/30891813/82270289-4acc0f80-9942-11ea-9a02-6148018239fa.PNG)
 
+## Notebooks
+
+Data Cleaning and Exploratory Data Analysis – Data_Cleaning_EDA.ipynb
+String Indexing and One Hot Encoding – StringIndexing_OHE_Conversion.ipynb
+Oversampling and Undersampling – Undersampling_Oversampling.ipynb
+
+Models:
+Imbalanced Dataset:
+Binary Classification:
+Logistic Regression – LR_Binary.ipynb
+Random Forest, Decision Tree and GBT – RF_DT_GBT_Binary.ipynb
+Multiclass Classification:
+Logistic Regression – LR_Multiclass.ipynb
+Random Forest and Decision Tree– RFDT_Multiclass.ipynb
+Balanced Dataset:
+Binary Classification:
+Logistic Regression, Random Forest, Decision Tree and GBT –
+RF_DT_GBT_LR_Binary_Bal.ipynb
+Multiclass Classification:
+Logistic Regression – LR_Multiclass_Bal.ipynb
+Random Forest and Decision Tree– RFDT_Multiclass_Bal.ipynb
